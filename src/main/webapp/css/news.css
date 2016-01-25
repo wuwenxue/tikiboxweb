@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+img {
+
+max-width: 700px;
+
+width: expression(this.width>700?"700px":this.width+"px");
+
+overflow: hidden;
+
+}

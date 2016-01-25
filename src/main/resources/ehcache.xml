@@ -1,0 +1,37 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+	<diskStore path="java.io.tmpdir" />
+
+	<cacheManagerEventListenerFactory
+		class="" properties="" />
+		<!-- 
+	<cacheManagerPeerProviderFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory"
+		properties="peerDiscovery=manual,
+		            rmiUrls=//192.168.1.158:40008/smsSessionCache|//192.168.1.158:40008/alarmCache"
+		propertySeparator="," />
+
+	<cacheManagerPeerListenerFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory" 
+        properties="hostName=192.168.1.112, 
+                    port=40008, 
+                    socketTimeoutMillis=120000" 
+        propertySeparator="," />  -->
+
+	<defaultCache maxElementsInMemory="10000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120" overflowToDisk="true"
+		diskSpoolBufferSizeMB="30" maxElementsOnDisk="10000000"
+		diskPersistent="false" diskExpiryThreadIntervalSeconds="120"
+		memoryStoreEvictionPolicy="LRU" />
+
+	<!-- Place configuration for your caches following -->
+	<cache name="sessionCache" maxElementsInMemory="100000"
+		eternal="false" timeToIdleSeconds="0" timeToLiveSeconds="300"
+		overflowToDisk="true">
+		
+	</cache>
+
+	
+
+</ehcache>

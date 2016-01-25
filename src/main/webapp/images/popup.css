@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0; text-align:center; line-height:20px; color:#666; background:#fff;}
+body,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,button{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:14px; margin:0; padding:0; list-style:none; font-weight:normal}
+div,p{margin:0; padding:0;}
+a:link,a:visited{color:#666; text-decoration:none;}
+a:hover{color:#666; text-decoration:none}
+hr{height:0; border:0; border-bottom:1px solid #ddd;}
+img{border:0; vertical-align:middle;}
+button,input,select,txtarea{ vertical-align:middle;}
+.none{display:none;}
+.clear{clear:both;}
+form{margin:0; padding:0}
+.red{color:#ff0000;}
+.blue,a.blue,a.blue:hover,a.blue:visited{color:#336699;}
+
+
+.popup{padding:10px; background:#f0f0f0; border-radius:8px; text-align:left}
+.popup p{height:60px; font-size:20px; color:#111; padding-left:20px;}
+.popup .title{height:30px; line-height:30px; padding-left:10px; font-size:18px; color:#000; position:relative; margin-bottom:25px}
+.popup .title u{position:absolute; right:5px; top:0px; }
+.popup .title button{border:0; background:none; color:#000; font-weight:bold; cursor: pointer;}
+.popup .title button.gary{border: 1px solid #ddd; background: #ff0000}
+.popup .title .plan{position:absolute; left:155px; top:20px; height:39px; width:100%;background:url(plan.jpg) no-repeat;}
+.popup .content{padding:0 40px; margin-bottom:20px}
+.popup .content .form-group{margin:10px 0; clear:both;}
+.lefttitile{float:left; width:20%; line-height:30px;}
+.popup .content .form-control{float:left; width:80%;}
+.popup .content input.txt{height:28px; line-height:28px; border:1px solid #ddd;}
+.popup .content button{height:40px; line-height:40px; padding-left:40px; padding-right:40px; border-radius:4px; border:0; text-align:center; font-size:1em; color:#fff; background:#ec581a; margin:10px 0 45px 0; cursor:pointer;}
+.popup .content button:hover{background:#f1651e}
+.popup .content ol{margin-bottom:30px;}
+.popup .content ol li{list-style:disc; padding-left:20px;}
+.popup .content ul li{list-style:none;}
+.popup .content td{padding:3px;}
+.popup .content u{text-decoration:none; color:#ff0000;}
+
+.pay p{border-bottom:1px dashed #999; line-height:30px; padding-bottom:30px; margin-bottom:20px;}
+.pay b{color:#ff0000;}
+.pay h2{font-size:16px; color:#666; font-weight:bold; margin-bottom:15px}
+.pay .conrmenu{text-align:center;height:42px;line-height:42px;border-bottom:2px solid #ddd;}
+.pay .active{float:left; padding:0 40px; cursor:pointer; font-size:16PX;  position:relative; border:2px solid #ddd; border-bottom:0}
+.pay .normal{float:left; padding:0 40px; cursor:pointer;font-size:16px;}
+.pay .box{padding:30px 0 0 0; height:250px}
+.pay .box li{border:1px solid #ddd; float:left; width:185px; height:40px; margin-right:35px; margin-bottom:15px;background:#fff;}
+.pay .box img{height:40px; margin-left:10px}
+.pay .box input{float:left; margin-top:12px}
+.pay .none{display:none;}
